@@ -6,7 +6,7 @@
 	"require": {
 		"laravel/framework": "4.1.*",
 		"cartalyst/sentry": "v2.1.2",
-		"sule/api": "dev-master"
+		"sule/api": "2.0.0"
 	},
 	"autoload": {
 		"classmap": [
