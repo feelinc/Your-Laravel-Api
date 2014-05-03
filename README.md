@@ -1,4 +1,6 @@
-Your-Laravel-Api
+Your Laravel Api
 ================
 
-Example of API build using Laravel
+composer install
+
+https://cartalyst.com/manual/sentry/installation/laravel-4
