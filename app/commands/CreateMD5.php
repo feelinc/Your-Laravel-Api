@@ -32,9 +32,9 @@ class CreateMD5 extends Command
         $isUrl = (bool) $this->option('is_url');
 
         if ($isUrl) {
-            $this->info(md5(str_replace('%3D', '=', urlencode($this->argument('string').$this->argument('secret')))));
+            $this->info('Your MD5 : '.md5(str_replace('%3D', '=', urlencode($this->argument('string').$this->argument('secret')))));
         } else {
-            $this->info(md5($this->argument('string').$this->argument('secret')));
+            $this->info('Your MD5 : '.md5($this->argument('string').$this->argument('secret')));
         }
 	}
 
