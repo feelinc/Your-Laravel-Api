@@ -12,3 +12,4 @@
 */
 
 Artisan::add(new CreateMD5);
+Artisan::add(new CreateAdministrator);
